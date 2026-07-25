@@ -1,8 +1,16 @@
 aid: country-style-cooking
 name: Country Style Cooking
-description: 'Country Style Cooking is a company surfaced as a portfolio company of hongshan and added
-  to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Country Style Cooking Restaurant Chain (乡村基, Xiangcunji) is a large Chinese
+  quick-service restaurant group founded on 23 November 1996 in Chongqing by Li Hong and Zhang
+  Xingqiang. The group operates two directly-managed chain brands — Xiangcunji (乡村基) and Mr.
+  Rice (大米先生) — serving Sichuan-style fast food cooked to order in restaurant kitchens under
+  a long-standing "good taste at affordable prices" operating philosophy. The company formerly
+  traded on the New York Stock Exchange under the ticker CCSC and was, at the time, the only
+  Asia-headquartered restaurant chain listed on the NYSE. It was surfaced in the API Evangelist
+  network as a portfolio company of Hongshan. Country Style Cooking publishes a Chinese-language
+  corporate website (csc100.com) covering its restaurants, brands, group news, recruiting, and
+  procurement bidding, but it publishes no developer portal, no public API, and no machine-readable
+  API artifacts — this profile records that verified absence of an API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/country-style-cooking/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +18,54 @@ x-backed-by:
 - hongshan
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-surface: none
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://www.csc100.com/uploads/image/20220424/d7c404ae55b512012cb2edf2e14aed49.png
 tags:
 - Company
 - Consumer
+- Restaurant
+- Food
+- Fast Food
+- Quick Service Restaurant
+- China
+- Chongqing
 apis: []
+common:
+- type: DomainSecurity
+  url: security/country-style-cooking-domain-security.yml
+- type: Website
+  url: https://www.csc100.com/
+- type: About
+  url: https://www.csc100.com/index/category/xcjmdzs.html
+- type: Blog
+  url: https://www.csc100.com/index/category/notice.html
+- type: Support
+  url: https://www.csc100.com/index/category/contact.html
+- type: Careers
+  url: https://www.csc100.com/index/category/recruits.html
+- type: LLMsTxt
+  url: llms/country-style-cooking-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

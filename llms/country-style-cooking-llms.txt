@@ -1,0 +1,30 @@
+# Country Style Cooking (乡村基 / Xiangcunji)
+
+> Country Style Cooking Restaurant Chain is a large Chinese quick-service restaurant group
+> founded on 23 November 1996 in Chongqing by Li Hong and Zhang Xingqiang. It operates the
+> directly-managed Xiangcunji (乡村基) and Mr. Rice (大米先生) brands, serving Sichuan-style
+> fast food cooked to order. The company formerly traded on the NYSE as CCSC. It publishes a
+> Chinese-language corporate website only — there is no developer portal, no public API, and
+> no machine-readable API artifacts.
+
+## APIs
+
+- No public API. Country Style Cooking publishes no developer portal, API reference, OpenAPI
+  definition, SDK, or webhook surface as of 2026-07-20.
+
+## Company
+
+- [Official website](https://www.csc100.com/): Corporate site (Simplified Chinese, Traditional Chinese, English).
+- [About us / our restaurants](https://www.csc100.com/index/category/xcjmdzs.html): Company overview and restaurant footprint.
+- [Company business](https://www.csc100.com/index/category/business.html): Business lines and operations.
+- [Brands](https://www.csc100.com/index/category/ppjs.html): Xiangcunji and Mr. Rice brand introductions.
+- [Group news](https://www.csc100.com/index/category/notice.html): Dated company and brand announcements.
+- [Careers](https://www.csc100.com/index/category/recruits.html): Recruiting and the employee training center.
+- [Contact](https://www.csc100.com/index/category/contact.html): Service hotlines, email, and headquarters address.
+- [Procurement bidding](https://www.csc100.com/index/category/bidding.html): Supplier and procurement tender information.
+
+## API Evangelist
+
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/country-style-cooking/refs/heads/main/apis.yml): This provider's APIs.json index.
+- [Domain security probe](security/country-style-cooking-domain-security.yml): TLS/HSTS/DNS posture for csc100.com.
+- [Well-known probe](well-known/country-style-cooking-well-known.yml): Verified absence of /.well-known/ discovery documents.
